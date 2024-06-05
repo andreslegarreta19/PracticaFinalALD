@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+}
+
+.container {
+    text-align: center;
+    height: 50vh; 
+    display: flex;
+    justify-content: center;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 330px;
+}
+
+
+.form-control {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
